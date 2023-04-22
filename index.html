@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Z-index</title>
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<style>
+	*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+	}
+	.main_container{ 
+	position:relative;
+	}
+	.red{
+	width:150px;
+	height:150px;
+	background-color:red;
+	
+	position:absolute;
+	
+	margin-left:25px;
+	margin-top:25px;
+	z-index:1;
+	
+	}
+	.blue{
+	width:150px;
+	height:150px;
+	background-color:blue;
+	
+	position:absolute;
+	
+	margin-left:50px;
+	margin-top:50px;
+	z-index:3;	
+	}
+	.green{
+	width:150px;
+	height:150px;
+	background-color:green;
+
+	position:absolute;
+
+	margin-left:75px;
+	margin-top:75px;
+	z-index:2;	
+	}
+			
+</style>
+
+<body>
+
+
+<section class="main_container">
+
+	<div class="red">
+	</div>
+	<div class="blue">
+	</div>
+	<div class="green">
+	</div>
+
+<section>
+
+</body>
+</html>
